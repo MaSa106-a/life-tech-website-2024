@@ -51,10 +51,8 @@ body {
     background-color: #3b5998;
     margin-right: 10px;
   }
-  a
   .twitter {
-    background-color: #308cd3;
-    opacity: 0.9;
+    background-color: #000000;
   }
   
   .btn {
@@ -76,7 +74,7 @@ body {
   header {
     height: 65px;
     width: 100%;
-    background-color: rgba(34, 49, 52, 0.9);
+    background-color: rgba(33, 48, 51, 0.846);
     position:fixed;
     top:0;
     z-index:10;  
@@ -93,7 +91,7 @@ body {
   
   .header-right {
     float: right;
-    background-color: rgba(192, 192, 192, 0.3);
+    background-color: rgba(152, 152, 152, 0.3);
     transition: all 0.5s;
   }
   
@@ -308,3 +306,5 @@ body {
     font-size: 18px;
     line-height: 1.5;
   }
+
+  
