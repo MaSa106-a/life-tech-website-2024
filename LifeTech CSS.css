@@ -306,3 +306,30 @@ footer p {
   font-size: 18px;
   line-height: 1.5;
 }
+
+@media (max-width: 1000px) {
+  .flex-list {
+    flex-wrap: wrap;
+  }
+  .flex-list li {
+    width: 50%;
+  }
+}
+
+/* スマホ向けレイアウト */
+/* ブレイクポイントが670px以下の時のメディアクエリを設定してください */
+@media (max-width: 670px) {
+  /* .flex-listにflex-directionを指定してください */
+  .lesson-wrapper {
+    flex-direction:column               ;
+  }
+  .lesson-wrapper .lesson{
+    width: 50%;
+  }
+  
+  /* .flex-list liにmarginを0 autoに指定してください */
+  .lesson-wrapper .lesson {
+    margin:0 auto;
+  }
+  
+}
